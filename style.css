@@ -1,9 +1,46 @@
 /*------------------
        RESET
 ------------------*/
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/*------------------
+       HEADER
+------------------*/
+
+header {
+    background-color: #ff6900;
+    color: white;
+    max-height: 70px;
+    padding: 15px 0;
+}
+
+.wrap { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.link {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap img{
+    max-height: 30px;
+    margin-right: 40px;
+}
+
+a, i {
+    margin: 0 5px;
+}
+
 
