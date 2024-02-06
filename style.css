@@ -53,12 +53,52 @@ a, i {
     gap: 20px;
 }
 
+.card {
+    position: relative;
+}
+
 .row > div {
     max-width: calc(100% / 3);
 }
 
 .row img {
     max-width: 100%;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.tags {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+}
+
+.discount-50 {
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.sostenibilità {
+    background-color: #008000;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
 }
 
 .row:last-child .card img{
