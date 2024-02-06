@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
 /*------------------
        HEADER
 ------------------*/
@@ -31,11 +35,12 @@ header {
 
 a {
     text-decoration: none;
+    font-size: 15px;
 }
 
 .wrap img{
     max-height: 30px;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 a, i {
@@ -48,7 +53,7 @@ a, i {
 .row {
     display: flex;
     max-width: 1200px;
-    padding: 60px 0;
+    padding: 25px 0;
     margin: auto;
     gap: 20px;
 }
@@ -125,6 +130,6 @@ small:nth-child(3) {
     color: #ff0000;
 }
 
-small:last-child{
+small:nth-of-type(3) {
     text-decoration: line-through;
 }
