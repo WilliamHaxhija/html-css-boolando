@@ -61,7 +61,7 @@ a, i {
     max-width: calc(100% / 3);
 }
 
-.row img {
+.row .default-img {
     max-width: 100%;
 }
 
@@ -79,6 +79,18 @@ a, i {
 
 .heart:hover {
     color: red;
+}
+
+.hover-img {
+    display: none;
+}
+
+.card:hover .hover-img {
+    display: block;
+}
+
+.card:hover .default-img {
+    display: none;
 }
 
 .tags {
