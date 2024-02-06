@@ -19,6 +19,10 @@ header {
     color: white;
     max-height: 70px;
     padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .wrap { 
@@ -54,6 +58,11 @@ a, i {
 /*------------------
        SECTIONS
 ------------------*/
+
+main {
+    margin-top: 100px;
+}
+
 main section:first-child {
     margin-top: 40px;
 }
@@ -170,6 +179,7 @@ footer {
     margin-right: 20px;
 }
 
-.info {
+.info span{
     font-size: 13px;
+    margin: 0 3px;
 }
