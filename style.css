@@ -10,7 +10,6 @@
 /*------------------
        HEADER
 ------------------*/
-
 header {
     background-color: #ff6900;
     color: white;
@@ -43,4 +42,37 @@ a, i {
     margin: 0 5px;
 }
 
+/*------------------
+       SECTION
+------------------*/
+.row {
+    display: flex;
+    max-width: 1200px;
+    padding: 60px 0;
+    margin: auto;
+    gap: 20px;
+}
 
+.row > div {
+    max-width: calc(100% / 3);
+}
+
+.row img {
+    max-width: 100%;
+}
+
+.row:last-child .card img{
+    max-height: 548.63px;
+}
+
+.description span {
+    display: block;
+}
+
+small:nth-child(3) {
+    color: #ff0000;
+}
+
+small:last-child{
+    text-decoration: line-through;
+}
